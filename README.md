@@ -44,7 +44,9 @@ Add `jenkins` user to sudoers file.
 ```
 jenkins         ALL=(ALL)       NOPASSWD: ALL
 ```
-Jenkinfile in the repo to deploy above playbook  via jenkins pipeline.
+Copy Jenkinfile in the repo to pipeline script, this will  deploy above playbook via jenkins pipeline.
+
+Click `Build now` to run job. This will deploy tomcat on local system and can be accessible via http://localhost:8000.
 
 ## Instructions for Task #4 ##
 
