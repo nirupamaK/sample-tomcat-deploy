@@ -39,6 +39,13 @@ To access ServerB  http://localhost:8001, to access Manager App UI user `admin/p
 
 ## Instructions for Task #3 ##
 
+Add `jenkins` user to sudoers file.
 
+```
+jenkins         ALL=(ALL)       NOPASSWD: ALL
+```
+Jenkinfile in the repo to deploy above playbook  via jenkins pipeline.
 
 ## Instructions for Task #4 ##
+
+`HA-App-design.pdf` added in the repository which explains, architecture Model for a high availability Three tier application in AWS.
