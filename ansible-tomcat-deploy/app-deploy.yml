@@ -54,6 +54,6 @@
     - name: Start tomcat
       command: /usr/share/{{ tomcat_server }}/apache-tomcat-{{ tomcat_version }}/bin/startup.sh
     
-  handlers:
+   handlers:
     - name: restart firewalld
       service: name=firewalld state=restarted  
