@@ -28,14 +28,14 @@ To deploy tomcat server, run following command :
     ansible-playbook -v app-deploy.yml
     ```
 
-Once the deployment complete the tomcat server UI is avaible at http://localhost:8080, to access Manager App UI user `admin/secret123` credentials. 
+Once the deployment complete the tomcat server UI is avaible at http://localhost:8000, to access Manager App UI user `admin/secret123` credentials. 
 
 The playbook is flexible of installing tomcat server instances on same machine. Use `vars-2.yml` instead on `vars.yml` to deploy another instance of tomcat on same VM at different location and port number.
 
     ```
     mv vars-2.yml vars.yml
     ```
-To access ServerB  http://localhost:8081, to access Manager App UI user `admin/pass123` credentials. 
+To access ServerB  http://localhost:8001, to access Manager App UI user `admin/pass123` credentials. 
 
 ## Instructions for Task #3 ##
 
